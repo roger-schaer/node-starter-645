@@ -1,0 +1,24 @@
+#####################################################################################
+#                              Database config                                      #
+#####################################################################################
+
+# Protocol of the DB to use (mysql for example)
+DB_PROTOCOL=mysql
+
+# Name of the user created for MySQL
+DB_USER=user
+
+# Password of the user created for MySQL
+DB_PASSWORD=supersecretpassword
+
+# Root password of the MySQL database
+DB_ROOT_PASSWORD=supersecretrootpassword
+
+# Host name of the MySQL database (localhost by default)
+DB_HOST=localhost
+
+# Port of the MySQL database (default : 3306)
+DB_PORT=3306
+
+# Name of the database created for MySQL
+DB_DATABASE=mydb

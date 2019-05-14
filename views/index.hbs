@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+{{#unless todos}}
+<a href='/api/populateDB'>Populate DB</a>
+{{/unless}}
+<ul class="todos">
+    {{#each todos}}
+        <li>
+            <span>{{this.description}}</span>
+            <span>(Due: {{formatDate this.dueDate year='numeric' month='2-digit' day='2-digit' timeZone='Europe/Zurich'}})</span>
+            <input type="checkbox" readonly disabled {{#if this.done}}checked{{/if}}/>
+        </li>
+    {{/each}}
+</ul>
