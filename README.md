@@ -28,6 +28,7 @@ Also, copy the `env-example` file to `.env` and modify the values according to y
 * `DB_PORT` : Should be `3306` normally.
 * `DB_DATABASE` : This can be whatever you want on your local machine, but needs to be your group name on the server (e.g. `grpXX`).
 * `PORT` : This is the port that will be used by your Express app. Replace it with `100XX`, where `XX` is your group number, e.g. `10008` for group 8.
+* `NODE_ENV` : Either `development` for local testing or `production` on the server.
 
 ## Running the app
 
