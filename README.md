@@ -21,6 +21,14 @@ Install PM2 with the following command : `npm install -g pm2`
 ## Customization of the app
 In `package.json`, replace all occurrences of `prj645-grpXX` with your own group number, for example `prj645-grp03` for group number 3.
 
+Also, copy the `env-example` file to `.env` and modify the values according to your needs:
+* `DB_PROTOCOL` : Should be `mysql` normally.
+* `DB_USER`, `DB_PASSWORD` : Put your user credentials here. If you run a local instance of MySQL on your machine, you can use the `root` user, on the server use the credentials provided for your group (used for phpMyAdmin).
+* `DB_HOST` : Is usually `localhost`, but you can replace it with the project server's URL if you want to connect to it from your local machine.
+* `DB_PORT` : Should be `3306` normally.
+* `DB_DATABASE` : This can be whatever you want on your local machine, but needs to be your group name on the server (e.g. `grpXX`).
+* `PORT` : This is the port that will be used by your Express app. Replace it with `100XX`, where `XX` is your group number, e.g. `10008` for group 8.
+
 ## Running the app
 
 ### Development
