@@ -11,9 +11,6 @@ DB_USER=user
 # Password of the user created for MySQL
 DB_PASSWORD=supersecretpassword
 
-# Root password of the MySQL database
-DB_ROOT_PASSWORD=supersecretrootpassword
-
 # Host name of the MySQL database (localhost by default)
 DB_HOST=localhost
 
@@ -22,3 +19,8 @@ DB_PORT=3306
 
 # Name of the database created for MySQL
 DB_DATABASE=mydb
+
+#####################################################################################
+#                               Web app config                                      #
+#####################################################################################
+PORT=100XX
