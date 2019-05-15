@@ -5,7 +5,8 @@
   "scripts": {
     "debug": "pm2 start --node-args='--inspect=0.0.0.0:9229' bin/www --watch --name 'prj645-grpXX'",
     "start": "pm2 start bin/www --name 'prj645-grpXX'",
-    "stop": "pm2 stop 'prj645-grpXX'"
+    "stop": "pm2 stop 'prj645-grpXX'",
+    "delete": "pm2 delete 'prj645-grpXX'"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

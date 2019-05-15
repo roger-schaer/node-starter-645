@@ -9,26 +9,30 @@ The following instructions will get you a copy of the project up and running on 
 ## Prerequisites
 
 * Node.js (>=10)
-* PM2
+* PM2 (http://pm2.keymetrics.io/)
 
 ## Installing
 
 Install Node.js from the website (see below).
 
-Install PM2 with the following command : `(sudo) npm install -g pm2`
+Install PM2 with the following command : `npm install -g pm2`
 (note that `sudo` may be required on Linux/macOS to allow global installation).
 
+## Customization of the app
+In `package.json`, replace all occurrences of `prj645-grpXX` with your own group number, for example `prj645-grp03` for group number 3.
 
 ## Running the app
 
 ### Development
 
-Run `npm debug`
-
+Run `npm run debug`
 
 ### Production
 
 Run `npm start`
+
+## Stop/delete the app
+Run `npm stop` or `npm run delete`, respectively.
 
 
 ## Built With
