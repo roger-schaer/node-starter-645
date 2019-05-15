@@ -27,3 +27,4 @@ DB_CONNECTION=$DB_PROTOCOL://$DB_USER:$DB_PASSWORD@$DB_HOST:$DB_PORT/$DB_DATABAS
 #                               Web app config                                      #
 #####################################################################################
 PORT=100XX
+NODE_ENV=development|production
