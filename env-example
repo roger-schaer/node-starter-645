@@ -20,6 +20,9 @@ DB_PORT=3306
 # Name of the database to connect to
 DB_DATABASE=mydb
 
+# Connection URL for Sequelize
+DB_CONNECTION=$DB_PROTOCOL://$DB_USER:$DB_PASSWORD@$DB_HOST:$DB_PORT/$DB_DATABASE
+
 #####################################################################################
 #                               Web app config                                      #
 #####################################################################################
