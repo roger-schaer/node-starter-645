@@ -20,7 +20,7 @@
     "http-errors": "~1.7.2",
     "morgan": "~1.9.1",
     "mysql2": "^1.6.5",
-    "sequelize": "^5.8.9"
+    "sequelize": "^5.15.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.11",
