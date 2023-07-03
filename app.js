@@ -3,7 +3,7 @@ var dotenv = require('dotenv');
 var dotenvExpand = require('dotenv-expand');
 
 var myEnv = dotenv.config();
-dotenvExpand(myEnv);
+dotenvExpand.expand(myEnv);
 
 // Libraries
 var createError = require('http-errors');
